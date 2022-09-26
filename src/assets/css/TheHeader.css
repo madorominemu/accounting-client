@@ -1,0 +1,83 @@
+.TheHeader {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: sticky;
+    height: 64px;
+    width: 100%;
+    background-color: #070707;
+}
+
+.AvatarBar {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #282828;
+    border-radius: 9999px;
+    cursor: pointer;
+    gap: 10px;
+}
+
+.userpic {
+    border-radius: 9999px;
+    height: 28px;
+    width: 28px;
+}
+
+.username {
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+}
+
+.userDropDownShow {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: #282828;
+    /*min-w-[196px] top-[40px] right-0 z-50*/
+    min-width: 196px;
+    padding: 4px;
+    top: 40px;
+    right: 0;
+    z-index: 10;
+    border-radius: 0.125rem;
+}
+
+.userDropDownHidden {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    background-color: #282828;
+    /*min-w-[196px] top-[40px] right-0 z-50*/
+    min-width: 196px;
+    padding: 4px;
+    top: 40px;
+    right: 0;
+    z-index: 10;
+    border-radius: 0.125rem;
+}
+
+.dropDownBtn {
+    height: 40px;
+    border-radius: 0.125rem;
+    cursor: pointer;
+    color: white;
+    background-color: #282828;
+    border-color: #282828;
+}
+.dropDownBtnHidden {
+    display: none;
+    height: 40px;
+    border-radius: 0.125rem;
+    cursor: pointer;
+    color: white;
+    background-color: #282828;
+    border-color: #282828;
+}

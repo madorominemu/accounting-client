@@ -1,0 +1,42 @@
+.SideBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 100%;
+    background-color: black;
+}
+
+.logo {
+    padding: 20px;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.BtnGroup1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.myButton {
+    height: 50px;
+    width: 240px;
+    font-size: 1rem;
+    letter-spacing: 0.025em;
+    background-color: black;
+    border-color: black;
+    text-align: left;
+}
+.myButton:hover {
+    background-color: #282828;
+    border-color: #282828;
+}
+.btnActive .myButton {
+    background-color: #282828;
+    border-color: #282828;
+}
+.btnActive:hover .myButton {
+    background-color: #282828;
+    border-color: #282828;
+}

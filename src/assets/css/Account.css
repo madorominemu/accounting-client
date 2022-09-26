@@ -1,0 +1,26 @@
+.Account {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    align-items: center;
+    padding: 30px;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.OptionBar {
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.SearchBar {
+    display: flex;
+    gap: 20px;
+}
+
+.dataBar {
+    flex: auto;
+}

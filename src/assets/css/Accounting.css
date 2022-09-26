@@ -1,0 +1,39 @@
+.Accounting {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    align-items: center;
+    padding: 30px;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.optionBar {
+    display: flex;
+    flex: auto;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.line {
+    flex: auto;
+    height: 30%;
+    width: calc(100% - 250px)
+}
+
+.pie {
+    display: flex;
+    flex: auto;
+    height: 30%;
+}
+
+.piePay {
+    flex: auto;
+    width: 700px;
+}
+
+.pieIncome {
+    flex: auto;
+    width: 700px;
+}
